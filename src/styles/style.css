@@ -1,0 +1,59 @@
+.example-six .pagination-container {
+    column-gap: 10px;
+    align-items: center;
+  }
+  .example-six .paginate-buttons {
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    color: black;
+  }
+  
+  .example-six .back-button,
+  .example-six .next-button {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .example-six .back-button{
+    padding-right: 2px;    
+  }
+
+  .example-six .next-button{
+    padding-left: 2px;    
+  }
+  
+  .example-six .active-page {
+    background-color: #e5e5e5;
+  }
+  .example-six .paginate-buttons:hover {
+    background-color: #f5f5f5;
+  }
+  .example-six .active-page:hover {
+    background-color: #e5e5e5;
+  }
+  
+  .example-six .back-button svg {
+    transform: rotate(180deg) translateY(-2px);
+  }
+  .example-six .next-button svg {
+    transform: translateY(2px);
+  }
+  
+  .example-six .back-button:hover,
+  .example-six .next-button:hover {
+    background-color: rgb(45, 45, 45);
+  }
+  
+  .example-six .back-button:active,
+  .example-six .next-button:active {
+    background-color: rgb(85, 85, 85);
+  }
